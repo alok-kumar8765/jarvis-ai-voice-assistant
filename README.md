@@ -1,8 +1,22 @@
-🤖 JARVIS AI Voice Assistant
+# 🤖 JARVIS AI Voice Assistant
 
 A Python-based personal voice assistant that allows users to interact with their laptop using voice commands.
 
-📌 Description
+
+---
+
+# 📛 **Badges**
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-red)
+![Socket.IO](https://img.shields.io/badge/WebSocket-Socket.IO-yellow)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Stars](https://img.shields.io/github/stars/yourrepo?style=social)
+
+---
+
+## 📌 Description
 
 JARVIS AI Voice Assistant is a Python-based desktop voice assistant designed to perform common tasks using simple voice commands.
 
@@ -10,17 +24,19 @@ The project combines Speech Recognition, Text-to-Speech, Web Automation, Wikiped
 
 The goal of this project is to demonstrate how Python can be used to build an interactive voice-controlled desktop assistant.
 
-✨ Features
-🎙️ Voice command recognition
-🗣️ Text-to-Speech response
-🔎 Google search using voice commands
-▶️ YouTube video search using voice commands
-📖 Wikipedia article search and summary
-💡 Laptop brightness control
-🔊 Laptop volume control
-🌐 Open Google, YouTube, and Wikipedia
-🖥️ Simple Tkinter graphical user interface
-⚡ Voice-based interaction
+1. ✨ Features
+2. 🎙️ Voice command recognition
+3. 🗣️ Text-to-Speech response
+4. 🔎 Google search using voice commands
+5. ▶️ YouTube video search using voice commands
+6. 📖 Wikipedia article search and summary
+7. 💡 Laptop brightness control
+8. 🔊 Laptop volume control
+9. 🌐 Open Google, YouTube, and Wikipedia
+10. 🖥️ Simple Tkinter graphical user interface
+11. ⚡ Voice-based interaction
+
+    
 <details> <summary><strong>🛠️ Setup Guide — Programming Software & IDE</strong></summary>
 1. Install Python
 
@@ -28,7 +44,9 @@ This project is written in Python, so Python must be installed on your computer.
 
 Download Python from the official website:
 
+```python
 https://www.python.org/downloads/
+```
 
 During installation on Windows, make sure to check:
 
@@ -37,17 +55,21 @@ During installation on Windows, make sure to check:
 
 After installation, open Command Prompt or Terminal and verify:
 
+```python
 python --version
-
+```
 
 You should see something similar to:
 
+```python
 Python 3.x.x
-
+```
 
 If python does not work, try:
 
+```python
 py --version
+```
 
 2. Choose an IDE / Code Editor
 
@@ -55,19 +77,23 @@ You can use any Python-compatible IDE or editor.
 
 Recommended options:
 
-Visual Studio Code
+- Visual Studio Code
 
 Download:
 
+```python
 https://code.visualstudio.com/
+```
 
 Install the Python extension from Microsoft after installing VS Code.
 
-PyCharm
+> PyCharm
 
 Download:
 
+```python
 https://www.jetbrains.com/pycharm/
+```
 
 PyCharm is another good option for Python development.
 
@@ -79,11 +105,11 @@ For beginners, VS Code is recommended.
 
 </details>
 <details> <summary><strong>📦 Prerequisites — Required Python Packages</strong></summary>
-Required Libraries
+## Required Libraries
 
 Before running the project, install the following Python packages:
 
-Package	Purpose
+### Package	Purpose
 SpeechRecognition	Converts voice into text
 PyAudio	Provides microphone access
 pyttsx3	Converts text into speech
@@ -107,22 +133,27 @@ Open Command Prompt / PowerShell / Terminal.
 
 Run:
 
+```python
 pip install SpeechRecognition pyttsx3 requests screen-brightness-control PyAudio
-
+```
 
 If pip is not recognized, try:
 
+```python
 python -m pip install SpeechRecognition pyttsx3 requests screen-brightness-control PyAudio
-
+```
 
 On Windows, you can also try:
 
+```python
 py -m pip install SpeechRecognition pyttsx3 requests screen-brightness-control PyAudio
+```
 
 Install Packages One by One
 
 If you prefer installing them separately:
 
+```python
 pip install SpeechRecognition
 
 pip install pyttsx3
@@ -132,13 +163,15 @@ pip install requests
 pip install screen-brightness-control
 
 pip install PyAudio
+```
 
 Verify Installation
 
 You can verify the installed packages with:
 
+```python
 pip list
-
+```
 
 Look for:
 
@@ -168,23 +201,27 @@ On some Windows systems, PyAudio may show an installation error.
 
 Try:
 
+```python
 python -m pip install --upgrade pip
-
+```
 
 Then:
 
+```python
 pip install PyAudio
-
+```
 
 If it still fails, check the Python version and architecture installed on your computer.
 
 </details>
 <details> <summary><strong>📥 How to Download and Run the Project</strong></summary>
-Step 1 — Clone the Repository
+## Step 1 — Clone the Repository
 
 Open Terminal / Command Prompt and run:
 
-git clone https://github.com/YOUR-USERNAME/jarvis-ai-voice-assistant.git
+```python
+git clone https://github.com/alok-kumar8765/jarvis-ai-voice-assistant.git
+```
 
 
 Move into the project folder:
@@ -195,7 +232,9 @@ Step 2 — Install Dependencies
 
 Run:
 
+```python
 pip install SpeechRecognition pyttsx3 requests screen-brightness-control PyAudio
+```
 
 Step 3 — Open the Project
 
@@ -203,19 +242,22 @@ Open the folder in VS Code, PyCharm, or another Python IDE.
 
 The main Python file should look similar to:
 
+```
 jarvis-ai-voice-assistant/
 │
 ├── jarvis.py
 ├── images/
 │   └── jarvis-ui.png
 └── README.md
+```
 
 Step 4 — Run the Assistant
 
 Run:
 
+```python
 python jarvis.py
-
+```
 
 If you use Windows and python does not work:
 
@@ -236,26 +278,26 @@ allow your computer to use the microphone if Windows asks for permission.
 </details>
 <details> <summary><strong>1️⃣ What Is This Project About?</strong></summary>
 
-JARVIS AI Voice Assistant is a desktop application created using Python.
+### JARVIS AI Voice Assistant is a desktop application created using Python.
 
-It allows users to perform different tasks through voice commands instead of manually typing or navigating through applications.
+  It allows users to perform different tasks through voice commands instead of manually typing or navigating through applications.
 
-The project demonstrates how multiple Python technologies can be combined to create a practical voice-controlled application.
+  The project demonstrates how multiple Python technologies can be combined to create a practical voice-controlled application.
 
 The assistant currently supports:
 
-Voice recognition
-Text-to-speech
-Web searching
-Wikipedia information
-YouTube searching
-Brightness control
-Volume control
-GUI interaction
+-Voice recognition
+-Text-to-speech
+-Web searching
+-Wikipedia information
+-YouTube searching
+-Brightness control
+-Volume control
+-GUI interaction
 </details>
 <details> <summary><strong>2️⃣ Why Was This Project Designed?</strong></summary>
 
-This project was designed to explore how Python, voice recognition, automation, and APIs can work together to create a personal desktop assistant.
+> This project was designed to explore how Python, voice recognition, automation, and APIs can work together to create a personal desktop assistant.
 
 The main objectives are:
 
@@ -417,35 +459,12 @@ The long-term goal is to evolve this project from a basic voice assistant into a
 📸 Project Preview
 JARVIS AI Interface
 
-Replace images/jarvis-ui.png with the actual path of your uploaded screenshot if your filename is different.
-
-👨‍💻 About Me
-
-Hi! I'm [Your Name], a developer interested in Python, Artificial Intelligence, Automation, and Software Development.
-
-I created this project as a practical way to learn and experiment with Python, voice recognition, APIs, GUI development, and desktop automation.
-
-I'm continuously working on improving my programming skills and building projects that solve real-world problems.
+<img src="assets/banner.jpg" alt="Jarvis Banner" width="100%" height="300">
 
 Connect With Me
-GitHub: https://github.com/YOUR-USERNAME
-LinkedIn: https://www.linkedin.com/in/YOUR-PROFILE/
-Email: YOUR-EMAIL
+> GitHub: https://github.com/alok-kumar8765
+Email: alokkaushal42@gmail.com
 
-Replace the placeholders above with your actual profiles and contact information.
-
-📄 License
-
-This project is licensed under the MIT License.
-
-You are free to:
-
-Use the project
-Modify the source code
-Distribute the project
-Use it for personal or educational purposes
-
-See the LICENSE file for complete license information.
 
 🙏 Thank You
 
