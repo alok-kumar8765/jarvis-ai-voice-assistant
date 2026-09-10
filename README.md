@@ -459,7 +459,7 @@ The long-term goal is to evolve this project from a basic voice assistant into a
 📸 Project Preview
 JARVIS AI Interface
 
-<img src="assets/banner.jpg" alt="Jarvis Banner" width="100%" height="300">
+<img src="banner.jpg" alt="Jarvis Banner" width="100%" height="300">
 
 Connect With Me
 > GitHub: https://github.com/alok-kumar8765
