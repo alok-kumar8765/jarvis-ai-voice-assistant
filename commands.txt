@@ -1,0 +1,62 @@
+Suggestes order for testing:
+
+1- Open Google
+2- Open YouTube
+3- Open Wikipedia
+4- Search Google Python
+5- Wikipedia Albert Einstein
+6- Play Arijit Singh on YouTube
+7- Increase brightness
+8- Decrease brightness
+9- Volume up
+10- Volume down
+
+Basic commands
+🌐 Websites
+“Open Google” → Google open hoga.
+“Open YouTube” → YouTube open hoga.
+“Open Wikipedia” → Wikipedia open hoga.
+🔎 Google Search
+Aap bolo:
+
+“Search Google Python programming”
+“Google search latest technology”
+“Search Google how to learn Python”
+Ya simply:
+
+“Python programming”
+To Jarvis usko Google par search karega.
+
+▶️ YouTube
+Aap bolo:
+
+“Play Arijit Singh on YouTube”
+“Play Tum Hi Ho on YouTube”
+“Play Python tutorial on YouTube”
+“Search YouTube funny videos”
+“Play cricket highlights on YouTube”  
+
+## exact video automatically play improvement need.
+
+📖 Wikipedia
+Aap bolo:
+
+“Wikipedia Albert Einstein”
+“Wikipedia Mahatma Gandhi”
+“Wikipedia India”
+“Wikipedia computer”
+“Wikipedia artificial intelligence”
+Jarvis Wikipedia se summary lekar screen par show karega aur bolkar bhi sunayega.
+
+💡 Brightness
+“Increase brightness” → 10% brightness increase
+“Decrease brightness” → 10% brightness decrease
+“Brightness up”
+“Brightness down”
+“Set brightness 50” → 50% brightness
+🔊 Volume
+“Volume up” → volume increase
+“Increase volume”
+“Volume down” → volume decrease
+“Decrease volume”
+“Mute volume” → mute
